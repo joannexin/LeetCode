@@ -24,3 +24,6 @@ var twoSum2 = function(nums, target) {
 
 console.log(twoSum1([2, 7, 11, 15], 9)); // ===> [0, 1]
 console.log(twoSum2([0, 4, 3, 0], 0)); // ===> [0, 3]
+
+// Method1 time complexity is O(n^2);
+// Method2 time complexity is O(n);
